@@ -7,13 +7,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet"><style>
   /* ---------- Reset ---------- */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; overflow-x: hidden; }
 body {
-  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif; */
+ font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   color: #111;
   background: #fff;
   line-height: 1.5;
@@ -250,8 +251,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #C7222A 0%, #6b1015 100%);
-    color: #f5d9d9;
+    background: linear-gradient(135deg, #1D5FD1 0%, #0B3A5E 100%);
+    color: #D9ECF5;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -279,7 +280,7 @@ body {
     gap: 6px;
     margin-top: 10px;
     padding: 10px 14px;
-    background: #C7222A;
+    background: #1D5FD1;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.25s ease;
@@ -288,10 +289,10 @@ body {
 .work-card:hover .work-arrow {
     gap: 10px;
     transform: translateY(-2px);
-    box-shadow: 0 8px 18px rgba(199, 34, 42, 0.25);
+    box-shadow: 0 8px 18px rgba(29, 95, 209, 0.25);
 }
 .work-arrow:hover {
-    background: #a91d23;
+    background: #1748A3;
 }
 
   /* ---------- View More Works ---------- */
@@ -364,7 +365,7 @@ body {
   .edu-block { margin-top: 8px; }
   .edu-item { padding: 16px 0; border-top: 1px solid #e5e3df; }
   .edu-item:last-child { padding-bottom: 0; }
-  .edu-date { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #C7222A; margin-bottom: 6px; }
+  .edu-date { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #1D5FD1; margin-bottom: 6px; }
   .edu-title { font-size: 15px; font-weight: 700; color: #111; margin-bottom: 3px; }
   .edu-school { font-size: 13px; color: #6b6b6b; }
 
@@ -394,7 +395,7 @@ body {
   left: 0; right: 0;
   top: 50%;
   height: 0;
-  border-top: 2px dotted #c2777c;
+  border-top: 2px dotted #7FB0D8;
   transform: translateY(-50%);
   z-index: 0;
 }
@@ -443,9 +444,9 @@ body {
   .tl-above .tl-dot { bottom: -7px; }
   .tl-below .tl-dot { top: -7px; }
   .tl-col.active .tl-dot {
-    background: #8B0000;
-    border-color: #8B0000;
-    box-shadow: 0 0 0 3px rgba(139,0,0,0.12);
+    background: #0F766E;
+    border-color: #0F766E;
+    box-shadow: 0 0 0 3px rgba(15,118,110,0.15);
   }
   .tl-connector {
     width: 1px;
@@ -484,7 +485,7 @@ body {
     color: #313030;
     line-height: 1.6;
   }
-  .tl-col.active .tl-date { color: #8B0000; }
+  .tl-col.active .tl-date { color: #0F766E; }
   .tl-col.active .tl-role { color: #111; font-weight: 800; }
   .tl-col.active .tl-company { color: #444; }
   .tl-col.active .tl-desc { color: #393838; }
@@ -523,7 +524,7 @@ body {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: #cd4b4b;
+    background: #2BB6A3;
     opacity: 0.85;
     z-index: 2;
   }
@@ -535,7 +536,7 @@ body {
     width: 14px;
     height: 14px;
     border-radius: 2px;
-    background: #C7222A;
+    background: #1D5FD1;
     opacity: 0.35;
     z-index: 2;
   }
@@ -545,7 +546,7 @@ body {
     right: 24px;
     width: 36px;
     height: 36px;
-    border: 2px solid #C7222A;
+    border: 2px solid #1D5FD1;
     border-radius: 50%;
     opacity: 0.18;
     pointer-events: none;
@@ -587,7 +588,7 @@ body {
     display: block;
     width: 48px;
     height: 4px;
-    background: #C7222A;
+    background: #1D5FD1;
     border-radius: 2px;
     margin-top: 28px;
     opacity: 0.7;
@@ -648,7 +649,7 @@ body {
     padding: 100px 0 80px;
   }
   .cta-title {
-    font-size: clamp(48px, 11vw, 160px);
+    font-size: clamp(28px, 11vw, 160px);
     font-weight: 800;
     color: #e8d9b9;
     letter-spacing: -0.04em;
@@ -657,7 +658,7 @@ body {
   }
   .cta-sub {
     color: #888;
-    font-size: 15px;
+    font-size: 25px;
     max-width: 400px;
     margin-bottom: 40px;
     line-height: 1.6;
@@ -769,13 +770,13 @@ body {
     .hero-welcome { font-size: 32px; }
     .metric-num { font-size: 28px; }
     .works-grid { gap: 12px; }
-    .cta-title { font-size: 44px; }
-    .about-name { font-size: 34px; }
+    .cta-title { font-size: 24px; }
+    .about-name { font-size: 24px; }
   }
 
   .highlight-domain {
     font-weight: 700;
-    background: linear-gradient(90deg, #C7222A, #FF6B6B);
+    background: linear-gradient(90deg, #1D5FD1, #2DD4A7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -789,7 +790,7 @@ body {
   border-left: 2px solid #e0ddd8;
 }
 .tlm-item:last-child { border-left-color: transparent; padding-bottom: 0; }
-.tlm-item.active { border-left-color: #C7222A; }
+.tlm-item.active { border-left-color: #1D5FD1; }
 .tlm-dot {
   position: absolute;
   left: -7px; top: 2px;
@@ -799,25 +800,80 @@ body {
   border: 2px solid #ccc;
 }
 .tlm-item.active .tlm-dot {
-  background: #C7222A;
-  border-color: #C7222A;
-  box-shadow: 0 0 0 3px rgba(139,0,0,.15);
+  background: #1D5FD1;
+  border-color: #1D5FD1;
+  box-shadow: 0 0 0 3px rgba(15,118,110,.15);
 }
 .tlm-item.active .tl-role { color: #111; font-weight: 800; }
-.tlm-item.active .tl-date { color: #8B0000; }
+.tlm-item.active .tl-date { color: #0F766E; }
 
 @media (max-width: 700px) {
   .timeline-scroll-wrap { display: none; }
   .timeline-mobile { display: block; padding: 0 20px; }
 }
 .service-icon {
-  color: #C7222A;
+  color: #1D5FD1;
   margin-bottom: 14px;
 }
 .service-icon svg {
   width: 30px;
   height: 30px;
 }
+  /* ---------- How I Work ---------- */
+  .hiw-quote {
+    max-width: 760px;
+    margin: 0 0 56px;
+    padding-left: 24px;
+    border-left: 3px solid #1D5FD1;
+  }
+  .hiw-quote p {
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 600;
+    line-height: 1.45;
+    letter-spacing: -0.01em;
+    color: #111;
+  }
+  .hiw-quote cite {
+    display: block;
+    margin-top: 12px;
+    font-style: normal;
+    font-size: 13px;
+    color: #6b6b6b;
+  }
+  .hiw-steps {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    counter-reset: step;
+    border-top: 2px solid #1D5FD1;
+  }
+  .hiw-step {
+    position: relative;
+    padding: 28px 24px 8px 0;
+  }
+  .hiw-step + .hiw-step { padding-left: 24px; border-left: 1px solid #e5e3df; }
+  .hiw-step::before {
+    counter-increment: step;
+    content: counter(step);
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: #1D5FD1; color: #fff;
+    font-size: 13px; font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .hiw-step:last-child::before { background: #0F766E; }
+  .hiw-step h3 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
+  .hiw-step p  { font-size: 14px; line-height: 1.6; color: #6b6b6b; }
+ 
+  @media (max-width: 900px) {
+    .hiw-steps { grid-template-columns: 1fr; border-top: none; border-left: 2px solid #1D5FD1; }
+    .hiw-step, .hiw-step + .hiw-step {
+      padding: 0 0 28px 28px; border-left: none;
+    }
+    .hiw-step::before { position: absolute; left: -16px; top: 0; margin: 0; }
+    .hiw-step:last-child { padding-bottom: 0; }
+  }
 
 </style>
 </head>
@@ -845,22 +901,21 @@ body {
 <section class="hero" data-testid="hero">
   <div class="container">
     <div class="hero-right">
-      <h2 class="hero-welcome" data-testid="hero-welcome">Building production-grade<br> AI systems for<br><span class="highlight-domain">enterprise &amp; FinTech</span></h2>
+      <h2 class="hero-welcome" data-testid="hero-welcome">Engineering AI solutions for<br><span class="highlight-domain">complex business problems.</span></h2>
     <p class="hero-desc" data-testid="hero-desc">
-AI Product Engineer with 1.8+ years of hands-on experience building and scaling AI-first SaaS products, including 0→1 startup environments. Specialized in translating business and user needs into production-ready AI solutions by collaborating with leadership and cross-functional teams across product and engineering. 
-</p>
+I build and deploy production-grade GenAI, agentic and multimodal systems — working across business discovery, solution architecture, engineering and deployment. With 2+ years of hands-on experience across AI-first SaaS products and fast-paced, 0→1 startup environments, I work closely with leadership and cross-functional product and engineering teams to translate business needs into scalable AI solutions.</p>
 <div style="display:inline-flex; align-items:center; gap:8px; background:#fff; border:1px solid #e5e3df; padding:8px 16px; border-radius:20px; margin-bottom:28px;">
-<i class="fas fa-award" style="color:#c7222a; font-size:16px;"></i>
+<i class="fas fa-award" style="color:#1D5FD1; font-size:16px;"></i>
   <span style="font-size:12px; font-weight:700; letter-spacing:0.02em; color:#111;">Gold Medalist &amp; Best Student Award — B.Sc. (Hons) AI, NMIMS Navi Mumbai</span>
 </div>
 <div class="hero-btn-row">
 <a href="https://www.linkedin.com/in/manushree-shah-4b2815226" target="_blank" rel="noopener"
    style="display:inline-flex; align-items:center; gap:10px;
           font-family:inherit; font-size:14px; font-weight:600; color:#fff;
-          background:#c7222a; border:1.5px solid #c7222a; padding:12px 24px;
+          background:#1D5FD1; border:1.5px solid #1D5FD1; padding:12px 24px;
           border-radius:10px; text-decoration:none; transition:all .2s;"
-   onmouseover="this.style.background='#a91d23';this.style.borderColor='#a91d23'"
-   onmouseout="this.style.background='#c7222a';this.style.borderColor='#c7222a'">
+   onmouseover="this.style.background='#1748A3';this.style.borderColor='#1748A3'"
+   onmouseout="this.style.background='#1D5FD1';this.style.borderColor='#1D5FD1'">
   <i class="fa-brands fa-linkedin"></i> LinkedIn
 </a>
 <a href="static/Manushree_Shah_AI_Engineer_Resume_.pdf" download
@@ -884,7 +939,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
   <div class="container">
     <div class="metrics-inner">
       <div class="metric-item">
-        <div class="metric-num">1.8+</div>
+        <div class="metric-num">2+</div>
         <div class="metric-label">Years AI Engineering</div>
       </div>
       <div class="metric-item">
@@ -933,7 +988,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
     <div class="section-head">
       <div><span class="eyebrow">Selected Work</span></div>
       <p class="section-intro">
-<span style="color:#c7222a;">Production AI systems</span> & <span style="color:#c7222a;">Research Publications</span> across GenAI, multimodal intelligence, financial automation & Machine Learning.</p>
+<span style="color:#1D5FD1;">Production AI systems</span> & <span style="color:#1D5FD1;">Research Publications</span> across GenAI, multimodal intelligence, financial automation & Machine Learning.</p>
     </div>
 
     <div class="works-grid">
@@ -1022,23 +1077,28 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
   </div>
 </section>
 
-<!-- CAPABILITIES -->
+<!-- =====================================================
+  2) REPLACE your existing CAPABILITIES section with this
+     (same four rows, intro and tags sharpened toward
+     end-to-end / client-facing delivery)
+===================================================== -->
 <section id="services" class="section" data-testid="services-section" style="padding-top:40px;">
   <div class="container">
     <div class="section-head">
-  <div><span class="eyebrow">Capabilities</span></div>
-  <p class="section-intro">
-    What I build — from generative AI systems to production-grade, scalable AI infrastructure.
-  </p>
-</div>
+      <div><span class="eyebrow">Capabilities</span></div>
+      <p class="section-intro">
+        From a client's business problem to a production AI system: I scope it, build it and run it.
+      </p>
+    </div>
+ 
     <div class="service-row" data-testid="service-1">
       <div>
         <div class="service-icon">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"></circle>
-    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
-  </svg>
-</div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+          </svg>
+        </div>
         <div class="service-name">Generative AI Systems</div>
       </div>
       <div>
@@ -1048,15 +1108,16 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
         </div>
       </div>
     </div>
+ 
     <div class="service-row" data-testid="service-2">
       <div>
         <div class="service-icon">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-    <polyline points="2 17 12 22 22 17"></polyline>
-    <polyline points="2 12 12 17 22 12"></polyline>
-  </svg>
-</div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
         <div class="service-name">Multimodal AI Applications</div>
       </div>
       <div>
@@ -1066,33 +1127,35 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
         </div>
       </div>
     </div>
+ 
     <div class="service-row" data-testid="service-3">
       <div>
         <div class="service-icon">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-    <polyline points="17 6 23 6 23 12"></polyline>
-  </svg>
-</div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+            <polyline points="17 6 23 6 23 12"></polyline>
+          </svg>
+        </div>
         <div class="service-name">AI Product Engineering</div>
       </div>
       <div>
-        <p class="service-desc">Scalable backend infrastructure and deployment pipelines for production AI products — owning the full lifecycle from client requirement gathering to POC and production deployment.</p>
+        <p class="service-desc">I own the full lifecycle: gathering requirements with clients and stakeholders, building the proof of concept, and deploying scalable backend infrastructure for production AI products.</p>
         <div class="service-tags">
-          <span>Production AI APIs</span><span>Flask Backend Systems</span><span>Full-Stack AI Deployment</span><span>CI/CD Pipelines</span><span>Scalable AI Architecture</span><span>Cross-Functional Collaboration</span><span>Client Requirement Gathering</span><span>POC to Deployment Ownership</span>
+          <span>Client Requirement Gathering</span><span>POC to Deployment Ownership</span><span>Production AI APIs</span><span>Flask Backend Systems</span><span>Full-Stack AI Deployment</span><span>CI/CD Pipelines</span><span>Scalable AI Architecture</span><span>Cross-Functional Collaboration</span>
         </div>
       </div>
     </div>
+ 
     <div class="service-row" data-testid="service-4">
       <div>
         <div class="service-icon">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-    <circle cx="9" cy="7" r="4"></circle>
-    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-  </svg>
-</div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
         <div class="service-name">Applied Machine Learning</div>
       </div>
       <div>
@@ -1104,6 +1167,56 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
     </div>
   </div>
 </section>
+ 
+ 
+<!-- =====================================================
+  3) ADD THIS NEW SECTION right after Capabilities
+===================================================== -->
+<section id="how-i-work" class="section" data-testid="how-i-work-section">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">How I Work</span></div>
+      <p class="section-intro">
+        From business problem to production AI. I approach AI engineering as an end-to-end problem-solving process.
+      </p>
+    </div>
+ 
+    <blockquote class="hiw-quote">
+      <p>I own problems end-to-end — from understanding a client's requirement in a room full of stakeholders to shipping the production system.</p>
+    </blockquote>
+ 
+    <ol class="hiw-steps">
+      <li class="hiw-step">
+        <h3>Discover</h3>
+        <p>Understand business workflows, user requirements and operational challenges.</p>
+      </li>
+      <li class="hiw-step">
+        <h3>Architect</h3>
+        <p>Identify suitable AI approaches, models, data pipelines and infrastructure.</p>
+      </li>
+      <li class="hiw-step">
+        <h3>Build</h3>
+        <p>Develop AI applications, agentic workflows, APIs and integrations.</p>
+      </li>
+      <li class="hiw-step">
+        <h3>Deploy</h3>
+        <p>Take solutions from proof of concept to production environments.</p>
+      </li>
+      <li class="hiw-step">
+        <h3>Optimise</h3>
+        <p>Evaluate performance, monitor systems and improve reliability and efficiency.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+ 
+ 
+<!-- =====================================================
+  4) ADD to your navbar and footer link lists:
+     <a href="#how-i-work">How I Work</a>
+     (put it after Capabilities)
+===================================================== -->
+ 
 
 <!-- ABOUT -->
 <section id="about" class="section" data-testid="about-section">
@@ -1127,6 +1240,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
   I build end-to-end AI solutions—from architecture and backend development to deployment and optimization—with a focus on usability, scalability, and measurable impact. My experience spans production AI applications across BFSI, including compliance, marketing, products, and learning & development (L&D), leveraging conversational AI, intelligent retrieval systems, and multimodal AI pipelines.
   <br><br>
   I work closely with clients and stakeholders, translating business requirements into technical solutions and driving projects from proof of concept to production deployment.
+  <br><br><strong>Open to opportunities in Forward Deployed Engineering, Applied AI, GenAI Engineering and AI Solutions — particularly roles involving enterprise implementations, customer collaboration and global AI initiatives.</strong>
 </p>
         <div class="edu-block">
           <div class="edu-item">
@@ -1197,7 +1311,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
         <div class="tl-col active">
           <div class="tl-above" style="visibility:hidden; min-height:200px;"></div>
           <div style="position:relative; height:2px; width:100%;">
-            <div class="tl-dot" style="position:absolute; left:20px; top:50%; transform:translateY(-50%); width:14px; height:14px; border-radius:50%; background:#C7222A; border:2px solid #C7222A; box-shadow:0 0 0 3px rgba(139,0,0,0.15); z-index:3;"></div>
+            <div class="tl-dot" style="position:absolute; left:20px; top:50%; transform:translateY(-50%); width:14px; height:14px; border-radius:50%; background:#1D5FD1; border:2px solid #1D5FD1; box-shadow:0 0 0 3px rgba(15,118,110,0.15); z-index:3;"></div>
           </div>
           <div class="tl-below">
             <div style="width:1px; height:24px; background:#e0ddd8; margin-left:26px; margin-bottom:12px;"></div>
@@ -1320,7 +1434,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
       <div><span class="eyebrow">Blogs</span></div>
 <p class="section-intro">
   I share my thoughts and learnings on the evolving world of AI — from 
-  <span style="color:#c7222a;">agentic AI, SLMs, and RAG to practical AI applications</span>.
+  <span style="color:#1D5FD1;">agentic AI, SLMs, and RAG to practical AI applications</span>.
 </p>
     </div>
     <div class="blogs-grid">
@@ -1368,8 +1482,7 @@ AI Product Engineer with 1.8+ years of hands-on experience building and scaling 
 <!-- CTA -->
 <section id="cta" class="cta" data-testid="cta-section">
   <div class="container">
-    <h2 class="cta-title">Let's build impactful<br/>AI systems.</h2>
-    <p class="cta-sub">Open to AI engineering roles, research collaborations, and product partnerships.</p>
+    <h2 class="cta-title">Let's build systems that solve real problems.</h2>
     <a href="mailto:manushreekshah@gmail.com" class="cta-link" data-testid="get-in-touch">Get in touch →</a>
     <div style="clear:both"></div>
   </div>
